@@ -1,0 +1,7 @@
+{
+	"name": "geo",
+	"short_name":"geo",
+	"description":"no tener idea q hacer aqui",
+	"start_url": "/geo.html",
+	"display": "standalone"
+}
