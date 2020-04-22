@@ -1,26 +1,89 @@
-body {
-   background: black;
-}
-article {
-    position: relative;
-    overflow: hidden;
-    padding: 20px;
-    background: black;
-    margin: 50px auto;
-    width: 70%; 
-    border: 2px solid white ;
-    border-radius: 10px;
-    box-shadow: 0 0 4px white;
-    color: blue;
-    text-align: center;
-}
-h1{
-    position: relative;
-    text-align: center;
-    background: #636052 ;
-}
-h2{
-    position: relative;
-    text-aling: center;
-    background: #636052;
-}
+@charset "utf-8"
+
+    @media(max-width:480px)
+    {
+        body {
+           background: black;
+        }
+        article {
+            position: relative;
+            overflow: hidden;
+            padding: 20px;
+            background: black;
+            margin: 50px auto;
+            width: 70%; 
+            border: 2px solid white ;
+            border-radius: 10px;
+            box-shadow: 0 0 4px white;
+            color: blue;
+            text-align: center;
+        }
+        h1{
+            position: relative;
+            text-align: center;
+            background: #636052 ;
+        }
+        h2{
+            position: relative;
+            text-align: center;
+            background: #636052;
+        }
+    }
+    @media(min-width:481px), (max-width:980px)
+    {
+        body {
+           background: black;
+        }
+        article {
+            position: relative;
+            overflow: hidden;
+            padding: 20px;
+            background: black;
+            margin: 50px auto;
+            width: 70%; 
+            border: 2px solid white ;
+            border-radius: 10px;
+            box-shadow: 0 0 4px white;
+            color: blue;
+            text-align: center;
+        }
+        h1{
+            position: relative;
+            text-align: center;
+            background: #636052 ;
+        }
+        h2{
+            position: relative;
+            text-align: center;
+            background: #636052;
+        }   
+    }
+    @media(min-width:981px)
+    {
+        body {
+           background: black;
+        }
+        article {
+            position: relative;
+            overflow: hidden;
+            padding: 20px;
+            background: black;
+            margin: 50px auto;
+            width: 70%; 
+            border: 2px solid white ;
+            border-radius: 10px;
+            box-shadow: 0 0 4px white;
+            color: blue;
+            text-align: center;
+        }
+        h1{
+            position: relative;
+            text-align: center;
+            background: #636052 ;
+        }
+        h2{
+            position: relative;
+            text-align: center;
+            background: #636052;
+        }  
+    }

@@ -1,39 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
+	<meta charset="utf-8">
 	<title>Geolocalización</title>
-	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="estilo.css">
 	<link rel= "manifest" href="manifest.json">
-	<script type="text/javascript">
-		if (navigator.geolocation) {
-			navigator.geolocation.getCurrentPosition(mostrarPosicion, opciones);	
-		} else {
-			alert("Tu navegador no soporta la geolocalización, actualiza tu navegador.");
-		}
-		function mostrarPosicion(posicion) {
-			var latitud = posicion.coords.latitude;
-			var longitud = posicion.coords.longitude;
-			$('#posicion').append("<p>Latitud: " + latitud +	 "</p>");
-			$('#posicion').append("<p>Longitud:" + longitud + "</p>");
-		}
-		var opciones = {
-			enableHighAccuracy: true,
-			timeout: 10000,
-			maximumAge: 1000
-		};
-	</script>
+	<script src="sw1.js"> </script>
 </head>
-<body>
+<body onload="soporteGeolocalizacion();">
 	<header id="cabecera">
         <h1>TE ESTAMOS RASTREANDO XD</h1>
     </header>
 	<article>
 		<h2>Esta es tu hubicacion actual...</h2>
- 		<div id="posicion"></div>
+ 		<div id="longitud"></div>
+ 		<div id="latitud"></div>	
  		<h2>Te estamos grabando xd</h2>
  	</article>
-<script src="sw1.js"></script>
 </body>
 </html>

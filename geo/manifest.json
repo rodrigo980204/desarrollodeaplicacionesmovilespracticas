@@ -1,7 +1,22 @@
 {
 	"name": "geo",
 	"short_name":"geo",
+	"icons":[
+	{
+		"src":"/icono-550-351.jpg",
+		"sizes":"512x512",
+		"type":"/jpg"
+	},{
+		"src":"/icono-55-35.png",
+		"sizes":"192x192",
+		"type":"/png"
+	},{
+		"src":"/icono-25-15.jpg",
+		"sizes":"128x128",
+		"type":"/jpg"
+	}],
 	"description":"no tener idea q hacer aqui",
-	"start_url": "/geo.html",
-	"display": "standalone"
+	"start_url": "/?source=pwa",
+	"display": "standalone",
+	"scope":"/"
 }
