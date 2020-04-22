@@ -3,20 +3,22 @@
 	"short_name":"geo",
 	"icons":[
 	{
-		"src":"/icono-550-351.jpg",
+		"src":"/icono-550-351.jpeg",
 		"sizes":"512x512",
-		"type":"/jpg"
+		"type":"image/jpeg"
 	},{
 		"src":"/icono-55-35.png",
 		"sizes":"192x192",
-		"type":"/png"
+		"type":"image/png"
 	},{
-		"src":"/icono-25-15.jpg",
+		"src":"/icono-25-15.png",
 		"sizes":"128x128",
-		"type":"/jpg"
+		"type":"image/png"
 	}],
+	"orientation":"portrait",
 	"description":"no tener idea q hacer aqui",
-	"start_url": "/?source=pwa",
 	"display": "standalone",
-	"scope":"/"
+	"start_url": "./geo.html?utm_source=web_app_manifest",
+	"scope":"./",
+	"lang":"es-MX"
 }
